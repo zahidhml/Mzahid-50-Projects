@@ -1,10 +1,6 @@
 const insert = document.getElementById('insert');
 
-console.log('insert element:', insert);
-
 window.addEventListener('keydown', (event) => {
-  console.log('Key pressed:', event.key, event.code, event.keyCode);
-
   insert.innerHTML = `
     <div class="key">
       ${event.key === ' ' ? 'Space' : event.key}
