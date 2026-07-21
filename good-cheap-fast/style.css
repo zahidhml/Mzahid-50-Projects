@@ -59,11 +59,11 @@ body {
 }
 
 @keyframes slideOn {
-  0% {
-    transform: translateX(0) scale(1);
+  start {
+    transform: translateZ(0) scale(1);
   }
   50% {
-    transform: translateX(70px) scale(1.2);
+    transform: translateX(20px) scale(1.5);
   }
   100% {
     transform: translateX(40px) scale(1);
@@ -75,7 +75,7 @@ body {
     transform: translateX(40px) scale(1);
   }
   50% {
-    transform: translateX(20px) scale(1.2);
+    transform: translateX(20px) scale(1.44);
   }
   100% {
     transform: translateX(0) scale(1);
